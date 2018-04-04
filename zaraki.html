@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="./style.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">INICIO</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> SOBRE</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTATO</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">SOBRE</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTATO</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">ORENI KATERU <span class="w3-hide-small">NO WA</span> ORE DAKEDA</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">SOBRE</h3>
+  <p class="w3-center"><em>Eu Amo Basquete</em></p>
+  <p style="text-indent: 5em;" align="justify">Daiki Aomine foi o Ás da equipe de Teikō, conhecida nacionalmente como Geração Dos Milagres. Incrivelmente rápido e versátil, abraçando um estilo agressivo e líquido, a força de Aomine reside na sua imprevisibilidade, bem como a habilidade para disparar a partir de praticamente qualquer posição. 
+     </p>
+     <p style="text-indent: 5em;" align="justify"> Ele é claramente um dos melhores jogadores da obra, se destacou na Geração Dos Milagres a ponto de criar uma frase que dizia: "Ore ni kateru no wa ore dakeda 'o único que pode me vencer sou eu mesmo'", mostra o quão habilidoso ele realmente é. Embora ele ame o basquete, cresceu jogando contra adversários mais velhos, habilidosos e experientes, o que sempre estimulava sua vontade de ser cada vez melhor. No começo, Aomine se mostrava como uma pessoa alegre e carismática, porém, isso foi mudando conforme o tempo passava, se tornando um ser arrogante e relaxado, principalmente por conta de suas extremas habilidades. Sarcástico e sem entusiasmo para o esporte, ignorando os treinos e até mesmo atrasando para para jogos importantes, perdendo pouco a pouco o amor pelo mesmo, tamanha frustração sofrida pela incapacidade de encontrar um adversário capaz de igualar ou superar sua habilidade. Toda a sua incerteza foi quebrada quando um jovem promissor lhe enfrentou pela segunda vez em uma partida, o próprio se chamava Taiga Kagami. O embate entre os dois mostrou uma das batalhas mais emocionantes do anime. </p>
+     <p style="text-indent: 5em;" align="justify">"Há males que vem para o bem"... Sua derrota, algo que parecia ser trágico e avassalador, fez com que o espírito esportivo voltasse, transportando de volta todo amor e dedicação ao basquete, fazendo-o sorrir novamente ao entrar na quadra em quaisquer situações. </p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Daiki Aomine</b></p><br>
+      <img src="./Aomine.Daiki.600.1276896.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Aomine" width="500" height="333">
+    </div>
+
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p></p>
+    </div>
+  </div>
+  <div id="progressBar">
+    <p class="w3-large w3-center w3-padding-16">Habilidades:</p>
+    <p class="w3-wide"><i class="fa fa-shield fa-rotate-270"></i>Velocidade</p>
+    <div id= class="w3-light-grey">
+      <div style="width:100%">100%</div>
+    </div>
+    <p class="w3-wide"><i class="fa fa-shield fa-rotate-270"></i>Explosão</p>
+    <div class="w3-light-grey">
+      <div style="width:100%">100%</div>
+    </div>
+    <p class="w3-wide"><i class="fa fa-shield fa-rotate-270"></i>Técnica</p>
+    <div class="w3-light-grey">
+      <div style="width:100%">100%</div>
+    </div>
+    <p class="w3-wide"><i class="fa fa-shield fa-rotate-270"></i>Energia</p>
+    <div class="w3-light-grey">
+      <div style="width:90%">90%</div>
+    </div>
+    <p class="w3-wide"><i class="fa fa-shield fa-rotate-270"></i>Força Mental</p>
+    <div class="w3-light-grey">
+      <div style="width:90%">90%</div>
+    </div>
+    <p class="w3-wide"><i class="fa fa-shield fa-rotate-270"></i>Técnica Especial</p>
+    <div class="w3-light-grey">
+      <div style="width:100%">100%</div>
+    </div>
+    <p class="w3-wide"><i class="fa fa-shield fa-rotate-270"></i>Zona</p>
+    <div class="w3-light-grey">
+      <div style="width:75%">75%</div>
+    </div>
+  </div>
+</div>
+
+<!--
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">14+</span><br>
+    Partners
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">55+</span><br>
+    Projects Done
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">89+</span><br>
+    Happy Clients
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">150+</span><br>
+    Meetings
+  </div>
+</div>
+-->
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide black">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">Wallpapers</h3>
+  <p class="w3-center"><em>Clássicos.<br> Clique na imagem para deixá-la maior.</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="./c55eb57167cdafad287596a5f274a2a0.jpg" style="width:100%" onclick="mostrarImg(this)" class="w3-hover-opacity" alt="Equipe Teikō">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="./daiki_aomine_wallpaper_by_thekevinmevlana-d8gi724.jpg" style="width:100%" onclick="mostrarImg(this)" class="w3-hover-opacity" alt="Daiki Aomine">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="./aomine_vs_kagami_by_iamzoof-d7740on.jpg" style="width:100%" onclick="mostrarImg(this)" class="w3-hover-opacity" alt="Kagami vs Aomine">
+    </div>
+
+    <div class="w3-col m3" id="fade">
+      <img src="./Teiko_All-Star_team.jpg" style="width:100%" onclick="mostrarImg(this)" class="w3-hover-opacity" alt="Teikō">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="./kise_vs_aomine_wallpaper_1366x768_kuroko_no_basket_by_alanprince-d5tbhly.jpg" style="width:100%" onclick="mostrarImg(this)" class="w3-hover-opacity" alt="Kise vs Aomine">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="./kuroko-no-basket-full-1170555.jpg" style="width:100%" onclick="mostrarImg(this)" class="w3-hover-opacity" alt="Geração dos Milagres">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="./Kuroko.no.Basuke.full.1200532.jpg" style="width:100%" onclick="mostrarImg(this)" class="w3-hover-opacity" alt="Aomine Kuroko Kagami">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="./maxresdefault.jpg" style="width:100%" onclick="mostrarImg(this)" class="w3-hover-opacity" alt="Zone">
+    </div>
+
+</div>
+
+<!-- Modal for full size images on click-->
+
+<div id="modal01" class="w3-modal w3-black" click="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image" onclick="fechar()"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+
+<div class="w3-content w3-container w3-padding-50" id="contact">
+  <h3 class="w3-center">ONDE TRABALHO</h3>
+  <p class="w3-center"><em>Eu adoraria receber seu feedback!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    
+    <div class="w3-col m4 w3-container">
+      
+    
+        <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
+      
+    </div>
+    
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Palmas, TO<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Fone: +00 151515<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: irubens.alves@outlook.com<br>
+      </div>
+      <p>Podemos conversar tomando <i class="fa fa-coffee"></i>, ou entre em contato:</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Nome" required name="Nome">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Mensagem" required name="Mensagem">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> ENVIAR
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Início</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+ 
+<!--  Google Maps -->
+<!--
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+-->
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
